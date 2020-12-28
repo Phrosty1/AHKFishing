@@ -18,8 +18,8 @@ function AHKFishing.OnInventorySingleSlotUpdate(eventCode, bagId, slotId, isNewI
 		and itemSoundCategory == 39) 
 	then
 		dmsg("Lure used, pressing E")
-		ptk.SetIndOnFor(ptk.VK_E, 100)
-		zo_callLater(function() ptk.SetIndOnFor(ptk.VK_E, 100) end, 500)
+		ptk.SetIndOnFor(ptk.VK_E, 50)
+		zo_callLater(function() ptk.SetIndOnFor(ptk.VK_E, 50) end, 500)
 	end
 end
 
